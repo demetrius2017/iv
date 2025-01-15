@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insta View Redirect</title>
+</head>
+<body>
+    <script>
+        // Замените URL на ваш целевой URL
+        const targetUrl = "https://telegram.aiopen.news/ru/post/132276537";
+        const rHash = "0a00eb02f7bdc0";
+        const instaViewUrl = `https://t.me/iv?url=${encodeURIComponent(targetUrl)}&rhash=${rHash}`;
+        
+        // Перенаправление на Insta View URL
+        window.location.href = instaViewUrl;
+    </script>
+    <p>Перенаправление на Insta View...</p>
+</body>
+</html>
